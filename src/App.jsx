@@ -1,6 +1,7 @@
 import AboutUs from "./components/AboutUs";
 import Events from "./components/Events";
 import Hero from "./components/Hero";
+import WhyUs from "./components/WhyUs";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Hero />
       <AboutUs />
       <Events />
+      <WhyUs />
     </main>
   );
 };

@@ -22,7 +22,7 @@ const Events = () => {
     },
   ];
   return (
-    <section className="w-full">
+    <section className="w-full sm:px-5">
       <div className="flex flex-col items-center justify-center py-20">
         <h2 className="text-5xl font-bold text-red-600">WEEKLY EVENTS</h2>
         <div className="flex flex-wrap justify-center items-center mt-10">
