@@ -1,20 +1,54 @@
 const WhyUs = () => {
+  const data = [
+    {
+      header: "Amazing Food",
+      list: [
+        "We have the best food in the town. Always serving with love and smile.",
+        "We have the best food in the town. Always serving with love and smile.",
+        "We have the best food in the town. Always serving with love and smile.",
+      ],
+      image: "https://th.bing.com/th/id/OIG4.LgUj9FIjzUbdTSMn0mRg",
+    },
+    {
+      header: "Perfect Pool Tables",
+      list: [
+        "We have the best food in the town. Always serving with love and smile.",
+        "We have the best food in the town. Always serving with love and smile.",
+        "We have the best food in the town. Always serving with love and smile.",
+      ],
+      image: "https://th.bing.com/th/id/OIG4.LgUj9FIjzUbdTSMn0mRg",
+    },
+    {
+      header: "Full Open Bar",
+      list: [
+        "We have the best food in the town. Always serving with love and smile.",
+        "We have the best food in the town. Always serving with love and smile.",
+        "We have the best food in the town. Always serving with love and smile.",
+      ],
+      image: "https://th.bing.com/th/id/OIG4.LgUj9FIjzUbdTSMn0mRg",
+    },
+  ];
   return (
     <section className="w-full">
-      <div className="flex flex-col justify-center items-center md:px-20">
-        <div className="flex w-[50%] items-center" >
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
-            error sit ea, quod optio voluptas ipsam ipsa velit voluptates odit
-            nam? Doloribus aspernatur aliquam minus repudiandae natus dolores
-            facilis fuga.
-          </p>
-          <img
-            src="https://th.bing.com/th/id/OIG4.LgUj9FIjzUbdTSMn0mRg"
-            alt="image"
-				width={480} height={720}
-          />
-        </div>
+      <div className="flex flex-col gap-20 justify-center items-center md:px-20">
+        {data.map((item) => (
+          <div
+            key={item.header}
+            className="flex w-[60%] gap-10  even:flex-row-reverse"
+          >
+            <div className="flex-1 mt-10">
+              <h2 className="text-4xl mb-10">{item.header}</h2>
+              <ul className="list-disc text-lg">
+                {item.list.map((info) => (
+                  <li key={info} className="mb-5">{info}</li>
+                ))}
+              </ul>
+            </div>
+            <div className="flex-1">
+              <img src={item.image} alt="image" />
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   );
