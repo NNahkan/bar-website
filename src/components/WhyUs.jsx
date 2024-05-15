@@ -1,3 +1,5 @@
+import WhyUsImage from "./WhyUsImage";
+
 const WhyUs = () => {
   const data = [
     {
@@ -30,6 +32,7 @@ const WhyUs = () => {
   ];
   return (
     <section className="w-full">
+      <WhyUsImage />
       <div className="flex flex-col gap-20 justify-center items-center md:px-20">
         {data.map((item) => (
           <div
@@ -40,7 +43,9 @@ const WhyUs = () => {
               <h2 className="text-4xl mb-10">{item.header}</h2>
               <ul className="list-disc text-lg">
                 {item.list.map((info) => (
-                  <li key={info} className="mb-5">{info}</li>
+                  <li key={info} className="mb-5">
+                    {info}
+                  </li>
                 ))}
               </ul>
             </div>
