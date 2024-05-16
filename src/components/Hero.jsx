@@ -32,7 +32,8 @@ const Hero = () => {
       </div>
       <div className="w-full bg-black-">
         <h2 className="text-center py-10 text-5xl text-red-600">
-          2-6 is happy hour everyday !
+          2-6 is happy hour everyday ! <br />
+          Maybe address here
         </h2>
       </div>
     </section>
