@@ -41,3 +41,25 @@ body {
 	word-break: break-word;
 	border: 0;
 }
+
+.footerFlexDiv {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5rem;
+	font-size: 20px;
+	justify-content: space-between;
+}
+
+.footerFlexDiv div {
+	font-size: 18px;
+}
+
+.footerFlexDiv h1 {
+	color: black;
+	font-weight: 900;
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	margin-bottom: .5rem;
+}
