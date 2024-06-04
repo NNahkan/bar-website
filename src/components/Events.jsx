@@ -1,22 +1,22 @@
 const Events = () => {
   const data = [
     {
-      header: "Pool and tournament",
+      header: "Pool tournament",
       paragraph:
         "Thomas shakes up the best Blood Marys around for just $5! This deal is good from 11am to 7pm.",
     },
     {
-      header: "Pool and tournament",
+      header: "Karaoke Night",
       paragraph:
-        "Thomas shakes up the best Blood Marys around for just $5! This deal is good from 11am to 7pm.",
+        "Join us for Karaoke Night, where every voice shines! Fun starts at 8 PM.",
     },
     {
-      header: "Pool and tournament",
+      header: "Sunday Party",
       paragraph:
-        "Thomas shakes up the best Blood Marys around for just $5! This deal is good from 11am to 7pm.",
+        "Don't miss our Sunday Party—great music, drinks, and fun for everyone!",
     },
     {
-      header: "Pool and tournament",
+      header: "Pool tournament",
       paragraph:
         "Thomas shakes up the best Blood Marys around for just $5! This deal is good from 11am to 7pm.",
     },
@@ -25,7 +25,7 @@ const Events = () => {
     <section className="w-full sm:px-5">
       <div className="flex flex-col items-center justify-center py-20">
         <h2 className="text-5xl font-bold text-red-600">WEEKLY EVENTS</h2>
-        <div className="flex flex-wrap justify-center items-center mt-10">
+        <div className="flex flex-wrap justify-center self-start mt-10">
           {data.map((event) => (
             <div key={event.header}
 				className="p-10 text-center lg:w-[33%]"
