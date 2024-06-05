@@ -21,10 +21,10 @@ const AboutUs = () => {
     <section className="w-full bg-red-700">
       <div className="py-20 flex flex-col justify-center items-center">
         <h2 className="text-6xl font-bold">ABOUT US</h2>
-        <div className="w-full flex justify-center sm:px-6 mt-20">
+        <div className="w-full flex justify-center sm:px-6 mt-20 gap-10 flex-wrap">
           {data.map((item) => (
-            <div key={item.header} className="text-center w-[30%] px-5">
-              <h3 className="text-4xl mb-8">{item.header}</h3>
+            <div key={item.header} className="text-center lg:w-[30%] px-5">
+              <h3 className="text-4xl md:mb-8 mb-4 ">{item.header}</h3>
               <p className="text-xl">{item.parap}</p>
             </div>
           ))}

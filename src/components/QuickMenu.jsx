@@ -19,16 +19,16 @@ const QuickMenu = () => {
   ];
   return (
     <section className="w-full bg-white text-black p-16 ">
-      <div className="flex flex-col ">
+      <div className="flex flex-col gap-20 ">
         {data.map((item) => (
           <div
             key={item.header}
-            className="flex justify-center items-center even:flex-row-reverse"
+            className="flex justify-center flex-wrap items-center even:flex-row-reverse gap-8"
           >
-            <div className="flex-1 w-1/2">
-              <img src={item.img} alt={item.header} />
+            <div className="md:flex-1">
+              <img   src={item.img} alt={item.header} />
             </div>
-            <div className="flex flex-col flex-1 items-center text-center px-6">
+            <div className="flex flex-col md:flex-1 items-center text-center px-6">
               <h1 className="text-7xl font-bold uppercase">{item.header}</h1>
               <h3 className="text-xl my-2">{item.subHeader}</h3>
               <p className="my-4 text-lg">{item.paragraph}</p>

@@ -23,7 +23,7 @@ const Events = () => {
   ];
   return (
     <section className="w-full sm:px-5">
-      <div className="flex flex-col items-center justify-center py-20">
+      <div className="flex flex-col items-center justify-center pt-32 pb-16">
         <h2 className="text-5xl font-bold text-red-600">WEEKLY EVENTS</h2>
         <div className="flex flex-wrap justify-center self-start mt-10">
           {data.map((event) => (
