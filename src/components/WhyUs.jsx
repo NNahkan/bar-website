@@ -37,7 +37,7 @@ const WhyUs = () => {
         {data.map((item) => (
           <div
             key={item.header}
-            className="flex w-[60%] gap-10  even:flex-row-reverse"
+            className="flex sm:w-[60%]  gap-10 lg:even:flex-row-reverse lg:odd:flex-row flex-col-reverse"
           >
             <div className="flex-1 mt-10">
               <h2 className="text-4xl mb-10">{item.header}</h2>

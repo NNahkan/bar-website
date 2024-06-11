@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <section className="w-full pb-5 flex flex-col justify-between items-center text-2xl">
-      <div className="w-full flex justify-center items-center bg-red-700 p-5">
+      <div className="w-full flex md:flex-row flex-col justify-center items-center bg-red-700 p-5">
         <img
           src="https://www.brooksplacetn.com/wp-content/uploads/elementor/thumbs/Brooks-Place-Pool-and-Sports-Bar-Sevierville-Tennessee-px102vp40qyk4iief50idz7a3iutiu70m1h1f8bq1a.png"
           alt="logo"
