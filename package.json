@@ -1,9 +1,9 @@
 {
+	"homepage": "http://NNahkan.github.io/bar-website",
+	"type": "module",
 	"name": "brooks-bar",
 	"private": true,
 	"version": "0.0.0",
-	"homepage": "https://nnahkan.github.io/bar-website",
-	"type": "module",
 	"scripts": {
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d dist",
