@@ -8,7 +8,7 @@ const Hero = () => {
           width={120}
         />
         <h1 className="text-center px-10">
-          Everyday Happy Hour from 2pm to 6pm, WE ID all customers, 21
+          Everyday Happy Hour from 2pm to 6pm , WE ID all customers, 21
         </h1>
         <img
           src="https://www.brooksplacetn.com/wp-content/uploads/elementor/thumbs/Brooks-Place-Pool-and-Sports-Bar-Sevierville-Tennessee-px102vp40qyk4iief50idz7a3iutiu70m1h1f8bq1a.png"
